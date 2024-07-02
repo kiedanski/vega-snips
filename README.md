@@ -13,3 +13,9 @@ The useful collections of vega tips
     view = result.view;
   }).catch(console.error);
 ```
+then use it to inspect your dataset
+
+```js
+// In the developer console
+view.data('name')
+```
